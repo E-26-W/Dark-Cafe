@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Dark Cafe - Premium Coffee & Lounge Experience</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Dark Cafe</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop>
+            <source src="cofe.avif.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Dark Cafe</h1>
+            <p class="hero-subtitle">Where Every Cup Tells a Story</p>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- Mapping used:
+         1.jpeg  = WhatsApp Image 2026-10-28 at 8.52.02 PM.jpeg   (cafe interior)
+         8.jpeg  = WhatsApp Image 2026-10-28 at 8.52.14 PM.jpeg   (coffee prep)
+         12.jpeg = WhatsApp Image 2026-10-28 at 8.52.15 PM.jpeg   (cafe ambiance)
+    -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Dark Cafe</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to our world! We are more than just an ordinary café; we are your ideal destination to unwind, meet up with friends, and enjoy the finest specialty coffee and refreshing beverages.</p>
+                    <p>We craft every cup with passion to energize your day, all within a comfortable atmosphere designed specifically to complement your special moments. From carefully sourced beans to expertly crafted drinks, we bring you an experience that goes beyond coffee.</p>
+                </div>
+                <div class="about-images">
+                    <div class="about-image-card">
+                        <img src="1.jpeg" alt="Cafe Interior">
+                        <div class="image-overlay"><p>Cozy &amp; Modern Interior</p></div>
+                    </div>
+                    <div class="about-image-card">
+                        <img src="13.jpeg" alt="Coffee Preparation">
+                        <div class="image-overlay"><p>Expertly Crafted Drinks</p></div>
+                    </div>
+                    <div class="about-image-card">
+                        <img src="3.jpeg" alt="Cafe Ambiance">
+                        <div class="image-overlay"><p>Perfect Atmosphere</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+
+            <!-- ── Classic Coffee ── -->
+            <!-- 16.jpeg = 8.52.16 PM.jpeg | 13.jpeg = (1) | 14.jpeg = (2) -->
+            <div class="menu-category">
+                <h3 class="category-title">☕ Classic Coffee</h3>
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <h4>Espresso &amp; Americano</h4>
+                        <p>Coffee is more than just a morning beverage; it is an entire culture and one of the most traded commodities in the world. Our coffee journey begins with carefully selected Arabica and Robusta beans, expertly roasted to perfection.</p>
+                        <span class="price">$1 - $3</span>
+                    </div>
+                    <div class="menu-images">
+                        <img src="6.jpeg" alt="Coffee">
+                        <img src="7.jpeg" alt="Coffee Art">
+                        <img src="28.jpeg" alt="Coffee Beans">
+                    </div>
+                </div>
+
+                <!-- 21.jpeg = 8.52.17 PM.jpeg | 17.jpeg = (1) | 18.jpeg = (2) -->
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <h4>Cappuccino</h4>
+                        <p>One of the most famous Italian coffee drinks worldwide, distinguished by its unique flavor balance and rich, velvety texture. Made with equal parts espresso, steamed milk, and milk foam — the perfect harmony.</p>
+                        <span class="price">$3 - $6</span>
+                    </div>
+                    <div class="menu-images">
+                        <img src="32.jpg" alt="Cappuccino">
+                        <img src="33.jpg" alt="Cappuccino Art">
+                        <img src="37.jpg" alt="Cappuccino Foam">
+                    </div>
+                </div>
+
+                <!-- 19.jpeg = 8.52.17 PM (3) | 20.jpeg = (4) | 31.jpeg = 8.52.18 PM.jpeg -->
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <h4>Hot Chocolate</h4>
+                        <p>The quintessential winter beverage, synonymous with warmth and comfort. Made with premium chocolate melted into hot milk, topped with whipped cream and marshmallows.</p>
+                        <span class="price">$4 - $7</span>
+                    </div>
+                    <div class="menu-images">
+                        <img src="10.jpeg" alt="Hot Chocolate">
+                        <img src="21.jpeg" alt="Hot Chocolate Cream">
+                        <img src="22.jpeg" alt="Hot Chocolate Deluxe">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Iced Beverages ── -->
+            <!-- 22.jpeg = 8.52.18 PM (1) | 23.jpeg = (2) | 24.jpeg = (3) -->
+            <div class="menu-category">
+                <h3 class="category-title">🧊 Iced Beverages</h3>
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <h4>Iced Coffee &amp; Iced Latte</h4>
+                        <p>The classic refreshing cold drink for coffee lovers. Available as traditional iced coffee, iced Americano, or cold brew steeped for 12–24 hours for ultimate smoothness.</p>
+                        <span class="price">$3 - $6</span>
+                    </div>
+                    <div class="menu-images">
+                        <img src="22.jpeg" alt="Iced Coffee">
+                        <img src="23.jpeg" alt="Iced Latte">
+                        <img src="29.jpeg" alt="Cold Brew">
+                    </div>
+                </div>
+
+                <!-- 25.jpeg = 8.52.18 PM (4) | 26.jpeg = (5) | 27.jpeg = (6) -->
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <h4>Iced Mocha</h4>
+                        <p>The perfect drink for those torn between their love for coffee and chocolate! Combines espresso, premium chocolate syrup, cold milk, and ice topped with whipped cream.</p>
+                        <span class="price">$4 - $7</span>
+                    </div>
+                    <div class="menu-images">
+                        <img src="39.jpg" alt="Iced Mocha">
+                        <img src="26.jpeg" alt="Mocha Delight">
+                        <img src="42.jpg" alt="Chocolate Coffee">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Signature DARK ── -->
+            <div class="menu-category signature">
+                <h3 class="category-title">✨ Signature DARK Drinks</h3>
+                <div class="signature-content">
+                    <video class="signature-video" autoplay muted loop>
+                        <source src="ccofe.avif.mp4" type="video/mp4">
+                    </video>
+                    <div class="signature-text">
+                        <h4>The Enchanting "DARK" Experience</h4>
+                        <p>"DARK" is more than just a drink; it is a rich, mysterious experience crafted specifically for those with refined taste.</p>
+                        <ul>
+                            <li><strong>Hot DARK:</strong> Fresh Milk, Nestlé Condensed Milk, DARK Secret Blend — $5</li>
+                            <li><strong>Ice DARK:</strong> Chilled Milk, Condensed Milk, DARK Secret Blend, Ice Cubes — $6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Desserts ── -->
+            <!-- 2.jpeg = 8.52.14 PM (1) | 3.jpeg = (2) | 4.jpeg = (3) -->
+            <div class="menu-category">
+                <h3 class="category-title">🍰 Desserts &amp; Crepes</h3>
+                <div class="dessert-grid">
+                    <div class="dessert-card">
+                        <img src="8.jpeg" alt="Strawberry Crepe">
+                        <h4>Strawberry Banana Crepe</h4>
+                        <p>Fresh strawberries, banana slices, Nutella drizzle, and powdered sugar</p>
+                        <span class="price">$5 - $7</span>
+                    </div>
+                    <div class="dessert-card">
+                        <img src="30.jpeg" alt="Mixed Berry Crepe">
+                        <h4>Mixed Berry Crepe</h4>
+                        <p>Blueberries, raspberries, strawberries with whipped cream and chocolate</p>
+                        <span class="price">$6 - $8</span>
+                    </div>
+                    <div class="dessert-card">
+                        <img src="12.jpeg" alt="Chocolate Crepe">
+                        <h4>Chocolate Deluxe Crepe</h4>
+                        <p>Rich chocolate crepe with cream rosettes and fresh berries</p>
+                        <span class="price">$6 - $9</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Shisha ── -->
+            <!-- 28.jpeg = 8.52.18 PM (7) | 29.jpeg = (8) | 30.jpeg = (9) -->
+            <div class="menu-category">
+                <h3 class="category-title">💨 Premium Shisha Menu</h3>
+                <div class="shisha-options">
+                    <div class="shisha-card">
+                        <img src="14.jpeg" alt="Classic Shisha">
+                        <h4>Classic Shisha</h4>
+                        <p>Traditional flavors and smooth experience</p>
+                        <span class="price">$4</span>
+                    </div>
+                    <div class="shisha-card">
+                        <img src="16.jpeg" alt="Modern Shisha">
+                        <h4>Modern Shisha</h4>
+                        <p>Contemporary flavors with premium tobacco</p>
+                        <span class="price">$7</span>
+                    </div>
+                    <div class="shisha-card">
+                        <img src="11.jpeg" alt="VIP Shisha">
+                        <h4>Luxury VIP Shisha</h4>
+                        <p>Exclusive blends and premium service</p>
+                        <span class="price">$12</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <!-- 5.jpeg = 8.52.14 PM (4) | 6.jpeg = (5) | 7.jpeg = (6)
+         9.jpeg = 8.52.15 PM (1) | 10.jpeg = (2) | 11.jpeg = (3)
+         15.jpeg = 8.52.16 PM (3) | video                         -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="35.jpg" alt="Fresh coffee beans and ground coffee on a stone surface">
+                </div>
+                <div class="gallery-item">
+                    <img src="38.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="37.jpg" alt="Gallery 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="34.jpg" alt="Gallery 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="36.jpg" alt="Gallery 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="44.jpg" alt="Gallery 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="45.jpg" alt="Gallery 7">
+                </div>
+                <div class="gallery-item">
+                    <img src="15.jpeg" alt="Gallery 8">
+                </div>
+                <div class="gallery-item">
+                    <video autoplay muted loop playsinline>
+                        <source src="gallery-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Dark Cafe</h3>
+                    <p>📍 Premium Location</p>
+                    <p>⏰ Open Daily: 8:00 AM – 3:00 AM</p>
+                    <p>📞 Contact: +963 959791302</p>
+                    <p>📧 Email: amad.abotafch@gmail.com</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Reserve Your Table</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="datetime-local" placeholder="Reservation Date &amp; Time" required>
+                        <textarea placeholder="Special Requests" rows="4"></textarea>
+                        <button type="submit" class="cta-button">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dark Cafe</h3>
+                    <p>Premium Coffee &amp; Lounge Experience</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dark Cafe. All rights reserved. | Crafted with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS browser SDK — must load before script.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
