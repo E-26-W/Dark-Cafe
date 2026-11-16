@@ -68,6 +68,11 @@ document.querySelectorAll(
     observer.observe(el);
 });
 
+// Initialize EmailJS
+emailjs.init({
+    publicKey: 'rrhOvBXMWvgLU_84N'
+});
+
 // --- Booking form submit feedback ---
 const form = document.querySelector('.contact-form form');
 if (form) {
@@ -83,3 +88,5 @@ if (form) {
         }, 3000);
     });
 }
+
+
